@@ -143,7 +143,7 @@
     <hadoop.version>3.3.6</hadoop.version>
     <hadoop.bin.path>${basedir}/${hive.path.to.root}/testutils/hadoop</hadoop.bin.path>
     <hamcrest.version>1.3</hamcrest.version>
-    <hbase.version>2.0.0-alpha4</hbase.version>
+    <hbase.version>2.5.6-hadoop3</hbase.version>
     <hppc.version>0.7.2</hppc.version>
     <!-- required for logging test to avoid including hbase which pulls disruptor transitively -->
     <disruptor.version>3.3.7</disruptor.version>
@@ -151,7 +151,7 @@
     <!-- httpcomponents are not always in version sync -->
     <httpcomponents.client.version>4.5.13</httpcomponents.client.version>
     <httpcomponents.core.version>4.4.13</httpcomponents.core.version>
-    <ivy.version>2.5.1</ivy.version>
+    <ivy.version>2.5.2</ivy.version>
     <jackson.version>2.13.5</jackson.version>
     <jamon.plugin.version>2.3.4</jamon.plugin.version>
     <jamon-runtime.version>2.4.1</jamon-runtime.version>
@@ -182,16 +182,16 @@
     <postgres.version>42.5.1</postgres.version>
     <oracle.version>21.3.0.0</oracle.version>
     <opencsv.version>2.3</opencsv.version>
-    <orc.version>1.8.3</orc.version>
+    <orc.version>1.8.5</orc.version>
     <mockito-core.version>3.4.4</mockito-core.version>
-    <powermock.version>2.0.2</powermock.version>
+    <mockito-inline.version>4.11.0</mockito-inline.version>
     <mina.version>2.0.0-M5</mina.version>
     <netty.version>4.1.77.Final</netty.version>
     <netty3.version>3.10.5.Final</netty3.version>
     <!-- used by druid storage handler -->
     <pac4j-saml.version>4.5.5</pac4j-saml.version>
     <paranamer.version>2.8</paranamer.version>
-    <parquet.version>1.13.0</parquet.version>
+    <parquet.version>1.13.1</parquet.version>
     <pig.version>0.16.0</pig.version>
     <plexus.version>1.5.6</plexus.version>
     <protobuf.version>3.21.7</protobuf.version>
@@ -207,7 +207,7 @@
     <velocity.version>2.3</velocity.version>
     <xerces.version>2.12.2</xerces.version>
     <xmlsec.version>2.3.0</xmlsec.version>
-    <zookeeper.version>3.7.1</zookeeper.version>
+    <zookeeper.version>3.7.2</zookeeper.version>
     <jpam.version>1.1</jpam.version>
     <felix.version>2.4.0</felix.version>
     <curator.version>5.2.0</curator.version>
